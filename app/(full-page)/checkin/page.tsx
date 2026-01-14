@@ -29,7 +29,7 @@ export default function CheckinPage() {
           document.body.appendChild(s);
         });
 
-        const liffId = process.env.NEXT_PUBLIC_LIFF_ID;
+        const liffId = process.env.NEXT_PUBLIC_LIFF_ID_checkin;
         if (!liffId) throw new Error("Missing NEXT_PUBLIC_LIFF_ID");
 
         await window.liff.init({ liffId });
