@@ -172,26 +172,11 @@ export default function RegistrationsPage() {
                                                     fontWeight: 800
                                                 }}
                                             >
-                                                <th style={{ padding: 10 }}>ดู</th>
-
-                                                <td style={{ padding: 10 }}>
-                                                    <a
-                                                        href={`/registrations_admin/${encodeURIComponent(r.lineUserId)}`}
-                                                        style={{
-                                                            display: 'inline-block',
-                                                            padding: '8px 10px',
-                                                            borderRadius: 10,
-                                                            border: '1px solid #ddd',
-                                                            textDecoration: 'none',
-                                                            fontWeight: 800
-                                                        }}
-                                                    >
-                                                        รายละเอียด
-                                                    </a>
-                                                </td>
+                                                รายละเอียด
                                             </a>
                                         </td>
                                     </tr>
+                                    
                                 ))
                             )}
                         </tbody>
@@ -216,3 +201,6 @@ export default function RegistrationsPage() {
         </main>
     );
 }
+
+
+
