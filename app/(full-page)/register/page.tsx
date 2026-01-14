@@ -1,7 +1,3 @@
-1.**สร้าง Folder register**
- - ใน Foder (Full-page) -> register -> page.tsx
-
-```javascript
 /* eslint-disable @next/next/no-img-element */
 'use client';
 
@@ -124,7 +120,7 @@ export default function RegisterPage() {
             window.liff.closeWindow();
 
             // ถ้าคุณอยาก “ไม่ปิด” ให้ใช้บรรทัดนี้แทน:
-            router.push("/success");
+            // router.push("/success");
         } catch (e: any) {
             setError(e?.message || 'Submit error');
         } finally {
@@ -207,4 +203,3 @@ export default function RegisterPage() {
         </main>
     );
 }
-```
